@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import MenuSection from "./colijala/MenuSection";
 import MainPageSection from "./colijala/MainPageSection";
 import headerLogo from "../assets/img/svg/logo.svg";
-import DekoderImage from "../assets/img/portfoliosection/img-2.png"
 import ChallengeSection from "./colijala/ChallengeSection";
 import FormSection from "./home/FormSection";
 import Loader from "./home/Loader";

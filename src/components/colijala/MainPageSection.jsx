@@ -87,28 +87,33 @@ const MainPageSection = ({ data }) => {
                 </p>
               )}
             </h1>
-            {
-              data==="DeKoder" ? <p className="design_text colijala-second-main-text">
-              DeKoder is a startup that aims to supply energy (starting with
-              gas) to domestic household acrossthe UK. Create a very simple yet
-              stunning logotype and promo site that sets the brand of Entice
-              Energy apart from the competitors like a fresh take on an already
-              saturated area.
-            </p> : (data === "Amex" ? <p className="design_text colijala-second-main-text">
-              Amex is a startup that aims to supply energy (starting with
-              gas) to domestic household acrossthe UK. Create a very simple yet
-              stunning logotype and promo site that sets the brand of Entice
-              Energy apart from the competitors like a fresh take on an already
-              saturated area.
-            </p> : <p className="design_text colijala-second-main-text">
-              Allstate is a startup that aims to supply energy (starting with
-              gas) to domestic household acrossthe UK. Create a very simple yet
-              stunning logotype and promo site that sets the brand of Entice
-              Energy apart from the competitors like a fresh take on an already
-              saturated area.
-            </p>)
-            }
-            
+            {data === "DeKoder" ? (
+              <p className="design_text colijala-second-main-text">
+                DeKoder is a digital-first media and analytics platform focused
+                on simplifying complex topics across elections, politics, global
+                affairs, finance, environment, health, startups, and technology.
+                Powered by AI-driven research and deep data analysis, the
+                platform transforms large-scale information into clear,
+                accessible, and insight-driven storytelling.
+              </p>
+            ) : data === "Amex" ? (
+              <p className="design_text colijala-second-main-text">
+                American Express is a global financial services company offering
+                payment, credit, and travel-related solutions. The organization
+                focuses on digital innovation and scalable enterprise platforms
+                to deliver secure, reliable, and seamless customer experiences
+                worldwide.
+              </p>
+            ) : (
+              <p className="design_text colijala-second-main-text">
+                Allstate is a leading U.S.-based insurance company providing
+                auto, home, and life insurance solutions. The organization
+                focuses on digital transformation and scalable enterprise
+                platforms to simplify policy management, improve operational
+                efficiency, and enhance customer experience through modern
+                technology solutions.
+              </p>
+            )}
           </div>
         </div>
       </div>

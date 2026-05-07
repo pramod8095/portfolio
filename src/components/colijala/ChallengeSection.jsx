@@ -9,7 +9,7 @@ import AllstateImg from "../../assets/img/portfoliosection/img-6.png";
 import AmexImg from "../../assets/img/portfoliosection/img-7.png";
 
 const ChallengeSection = ({ data }) => {
-  console.log("data");
+
 
   return (
     <>

@@ -543,7 +543,7 @@ svg {
 
 /*  ************************* 4.Main Page ************************** */
 .nairobi_img1 {
-    max-width: 100%;
+    max-width: 60%;
     border-radius: 50%;
     position: relative;
     left: 150px;
@@ -1075,24 +1075,7 @@ svg {
     animation: backgroundSlideshow 20s linear infinite 0s;
 }
 
-.slideshow2 li:nth-child(1) .img-bg-slide {
-    background-image: url('../assets/img/about-img.png');
-}
 
-.slideshow2 li:nth-child(2) .img-bg-slide {
-    background-image: url('../assets/img/about-img2.png');
-    animation-delay: 5s;
-}
-
-.slideshow2 li:nth-child(3) .img-bg-slide {
-    background-image: url('../assets/img/about-img.png');
-    animation-delay: 10s;
-}
-
-.slideshow2 li:nth-child(4) .img-bg-slide {
-    background-image: url('../assets/img/about-img2.png');
-    animation-delay: 15s;
-}
 
 @keyframes backgroundSlideshow {
     0% {

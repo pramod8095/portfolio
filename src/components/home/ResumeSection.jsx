@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import BlackYellowSvg from "../../assets/img/resumeimg/black-yellow-circle.jpg";
-import ResumeProfileImg from "../../assets/img/resumeimg/resume-img.png";
-
+import Pramod4 from "../../assets/img/pramod4.png"
 import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
 import HalfCircleBlack from "../../assets/img/svg/black-half-circal.svg";
@@ -232,7 +231,7 @@ const ResumeSection = () => {
                 <div className="resume-img-main">
                   <img
                     className="resume-img"
-                    src={ResumeProfileImg}
+                    src={Pramod4}
                     alt="resume-img"
                   />
                 </div>

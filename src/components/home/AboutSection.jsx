@@ -4,6 +4,9 @@ import EmailSvg from "../../assets/img/svg/email.svg";
 import PhoneSvg from "../../assets/img/svg/phone.svg";
 import BlackDotSvg from "../../assets/img/svg/black-dots.svg";
 import YellowSquare from "../../assets/img/svg/yellow-square-frame.svg";
+import Pramod from "../../assets/img/pramod2.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const AboutSection = () => {
   // About page 8+ year count functionality
@@ -148,20 +151,9 @@ const AboutSection = () => {
               </div>
               <div className="right-space">
                 <div className="badge">
-                  <ul className="slideshow2">
-                    <li>
-                      <span className="img-bg-slide">Image 01</span>
-                    </li>
-                    <li>
-                      <span className="img-bg-slide">Image 02</span>
-                    </li>
-                    <li>
-                      <span className="img-bg-slide">Image 03</span>
-                    </li>
-                    <li>
-                      <span className="img-bg-slide">Image 04</span>
-                    </li>
-                  </ul>
+                  <img src={Pramod} alt="pramod" className="nairobi_img1"/>
+                  
+                 
                   <div className="text">
                     <div className="dolly">
                       <div className="digit" id="counter">

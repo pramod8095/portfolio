@@ -37,13 +37,13 @@ const MainPageSection = () =>
               className="black-multiplication object"
               data-value="-1"
               src={MultiplicationSvg1}
-              alt="black-multipliction"
+              alt="black-multipliction1"
             />
             <img
               className="yellow-multiplication object"
               data-value="2"
               src={MultiplicationSvg2}
-              alt="yellow-multiplication"
+              alt="yellow-multiplication2"
             />
           </div>
         </div>

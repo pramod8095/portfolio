@@ -1089,7 +1089,7 @@
         width: 550px !important;
         height: 550px !important;
         cursor: pointer;
-        /* background: url(../img/about-img.png) no-repeat 100% 50%; */
+       
         background-size: 105%;
         border-radius: 100%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -3568,7 +3568,7 @@
         width: 450px !important;
         height: 450px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 100%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -4116,7 +4116,7 @@
         width: 400px !important;
         height: 400px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 100%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -4687,7 +4687,7 @@
         width: 360px !important;
         height: 360px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 50%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -4859,7 +4859,7 @@
         width: 300px !important;
         height: 300px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 50%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -5433,7 +5433,7 @@
         width: 280px !important;
         height: 280px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 50%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
@@ -5523,7 +5523,7 @@
         width: 260px !important;
         height: 260px !important;
         cursor: pointer;
-        background: url(../assets/img/about-img.png) no-repeat 100% 50%;
+        
         background-size: 105%;
         border-radius: 50%;
         transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);

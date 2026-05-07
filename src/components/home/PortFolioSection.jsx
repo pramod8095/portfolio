@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 const PortFolioSection = () => {
   const [activeTab, setActiveTab] = useState(0);
 
-  const handleTabClick = (index) => {
-    setActiveTab(index);
-  };
+ 
   return (
     <>
       <div className="all-page-border2">

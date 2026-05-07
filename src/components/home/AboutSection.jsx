@@ -124,7 +124,7 @@ const AboutSection = () => {
                     </div>
                     <div className="big-yellow-circle"></div>
                     <p className="mobile-email">
-                      <a to="mailto:kpramod8095@gmail.com" href="hi">kpramod8095@gmail.com</a>
+                      <span>kpramod8095@gmail.com</span>
                     </p>
                   </div>
                 </div>

@@ -25,7 +25,7 @@ const RevealOnScroll = () => {
   }, []);
 
   return null;
-  <></>;
+
 };
 
 export default RevealOnScroll;

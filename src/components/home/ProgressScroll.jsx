@@ -47,7 +47,7 @@ const ProgressScroll = () => {
   }, []);
 
   return null;
-  <></>;
+  
 };
 
 export default ProgressScroll;

@@ -16,7 +16,7 @@ const Home = () => {
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 1000);
   }, []);
   if (loading) {
     return <Loader />;
@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <div className="site_content">
-        <div class="main_container">
+        <div className="main_container">
           <MenuSection />
           <div className="all-page-border active_menus">
             <MainPageSection />

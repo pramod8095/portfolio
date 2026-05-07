@@ -82,7 +82,7 @@ const MenuSection = () => {
             onChange={handleCheckboxChange}
           />
           <div className="mobile-hub">
-            <label className="m-menu__toggle" for="menu">
+            <label className="m-menu__toggle" htmlFor="menu">
               <svg
                 className="hub"
                 width="35"
@@ -104,7 +104,7 @@ const MenuSection = () => {
             </div>
           </div>
           <div className="open-mobile-menu">
-            <label className="m-menu__overlay" for="menu"></label>
+            <label className="m-menu__overlay" htmlFor="menu"></label>
             <div className="m-menu" id="run">
               <div className="m-menu__header">
                 <Link to="/">
@@ -114,7 +114,7 @@ const MenuSection = () => {
                     alt="logo"
                   />
                 </Link>
-                <label className="m-menu__toggle close" for="menu">
+                <label className="m-menu__toggle close" html="menu">
                   <svg
                     width="35"
                     height="35"

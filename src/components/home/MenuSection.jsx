@@ -88,7 +88,7 @@ const MenuSection = () => {
             onChange={handleCheckboxChange}
           />
           <div className="mobile-hub">
-            <label className="m-menu__toggle" for="menu">
+            <label className="m-menu__toggle" htmlFor="menu">
               <svg
                 className="hub"
                 width="35"
@@ -110,7 +110,7 @@ const MenuSection = () => {
             </div>
           </div>
           <div className="open-mobile-menu">
-            <label className="m-menu__overlay" for="menu"></label>
+            <label className="m-menu__overlay" htmlFor="menu"></label>
             <div className="m-menu" id="run">
               <div className="m-menu__header">
                 <a href="/">
@@ -120,7 +120,7 @@ const MenuSection = () => {
                     alt="logo"
                   />
                 </a>
-                <label className="m-menu__toggle close" for="menu">
+                <label className="m-menu__toggle close" htmlFor="menu">
                   <svg
                     width="35"
                     height="35"
@@ -135,69 +135,44 @@ const MenuSection = () => {
                 </label>
               </div>
               <ul className="navbar-collapse">
-                <li className="icon-menu sub-icon-menu">
-                  <label>
-                    <a href="/">HOME</a>
-                  </label>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#about" onClick={handleNavbarItemClick}>
-                        ABOUT
-                      </a>
-                    </label>
-                  </li>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#resume" onClick={handleNavbarItemClick}>
-                        RESUME
-                      </a>
-                    </label>
-                  </li>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#portfolio" onClick={handleNavbarItemClick}>
-                        PORTFOLIO
-                      </a>
-                    </label>
-                  </li>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#testimonial" onClick={handleNavbarItemClick}>
-                        TESTIMONIAL
-                      </a>
-                    </label>
-                  </li>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#news" onClick={handleNavbarItemClick}>
-                        NEWS
-                      </a>
-                    </label>
-                  </li>
-                  <li className="icon-menu">
-                    <label>
-                      <a href="#contact" onClick={handleNavbarItemClick}>
-                        CONTACT
-                      </a>
-                    </label>
-                  </li>
-                  <li className="menu-contact">
-                    <h1 className="share-text-m">SHARE</h1>
-                    <p className="share-list-text-m">
-                      <Link to="https://www.facebook.com/">Fb.</Link>
-                    </p>
-                    <p className="share-list-text-m">
-                      <Link to="https://twitter.com/">Tw.</Link>
-                    </p>
-                    <p className="share-list-text-m">
-                      <Link to="https://www.instagram.com/">Ins.</Link>
-                    </p>
-                    <p className="share-list-text-m">
-                      <Link to="https://www.linkedin.com">Li.</Link>
-                    </p>
-                  </li>
-                </li>
-              </ul>
+  <li className="icon-menu sub-icon-menu">
+    <label>
+      <a href="/">HOME</a>
+    </label>
+  </li>
+
+  <li className="icon-menu">
+    <label>
+      <a href="#about" onClick={handleNavbarItemClick}>
+        ABOUT
+      </a>
+    </label>
+  </li>
+
+  <li className="icon-menu">
+    <label>
+      <a href="#resume" onClick={handleNavbarItemClick}>
+        RESUME
+      </a>
+    </label>
+  </li>
+
+  <li className="icon-menu">
+    <label>
+      <a href="#portfolio" onClick={handleNavbarItemClick}>
+        PROJECTS
+      </a>
+    </label>
+  </li>
+
+  <li className="icon-menu">
+    <label>
+      <a href="#testimonial" onClick={handleNavbarItemClick}>
+        TESTIMONIAL
+      </a>
+    </label>
+  </li>
+</ul>
             </div>
           </div>
         </nav>

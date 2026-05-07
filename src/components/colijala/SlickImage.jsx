@@ -18,7 +18,6 @@ class ColijalaImageSlider extends React.Component {
 
     return (
       <Slider {...settings} className="main_image_slider">
-        {console.log(this.props.data)}
         <div>
           <img className="nairobi_img1" src={(this.props.data === "Allstate"? Allstate : (this.props.data === "DeKoder" ? Dekoder : Amex))} alt="Slide 3" />
         </div>

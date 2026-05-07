@@ -80,7 +80,7 @@ const AboutSection = () => {
                   specialize in React, modern JavaScript, and state management
                   architectures that deliver fast, intuitive, and reliable user
                   experiences.<br/> <br/>
-                  <p className="designer designer2">
+                  <span className="designer designer2">
                     Over the years, I’ve worked across diverse
                     projects—transforming complex requirements into clean,
                     maintainable, and production-ready interfaces. My focus goes
@@ -94,7 +94,7 @@ const AboutSection = () => {
                     clean code, and deliver impactful user experiences—I’d be
                     glad to collaborate and contribute to your product’s
                     success.
-                  </p>
+                  </span>
                 </p>
                 <div className="phone-email-icons">
                   <div className="phone-icon phone-icon1">

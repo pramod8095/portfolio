@@ -242,7 +242,9 @@ const ResumeSection = () => {
               <div className="send-btn-main" data-aos="fade-up">
                 <button
                   className="send-btn1"
-                  onclick="window.location.href = '#send';"
+                  onClick={() => {
+    window.location.href = "#send";
+  }}
                 >
                   SEND ME MESSAGE
                   <span className="send-span"></span>

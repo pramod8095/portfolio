@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import headerLogo from "../../assets/img/svg/logo.svg";
+import headerLogo from "../../assets/img/svg/logo.jpeg";
 import { Link } from "react-router-dom";
 
 const MenuSection = () => {

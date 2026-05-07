@@ -253,6 +253,8 @@ ul {
 
 .logo {
     filter: var(--img-logo);
+    height: 50px;
+    width: 50px;
 }
 
 .mobile-nav {

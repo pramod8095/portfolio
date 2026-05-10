@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ColiJalaImg from "../../assets/img/portfoliosection/img-2.png";
 import BolMija from "../../assets/img/portfoliosection/img-6.png";
 import Moligo from "../../assets/img/portfoliosection/img-7.png";
@@ -6,7 +6,6 @@ import Moligo from "../../assets/img/portfoliosection/img-7.png";
 import { Link } from "react-router-dom";
 
 const PortFolioSection = () => {
-  const [activeTab, setActiveTab] = useState(0);
 
  
   return (
@@ -27,7 +26,7 @@ const PortFolioSection = () => {
         </div>
       </div>
       <div className="content_box overflow-hidden">
-        <div className={activeTab === 0 ? "content active" : "content"}>
+        <div className="content active">
           <div className="row m-0">
             <div className="col-xl-4 col-lg-4 col-md-6 p-0 center-line">
               <div className="bottom-line">

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import headerLogo from "../../assets/img/svg/logo.jpeg";
-import { Link } from "react-router-dom";
 
 const MenuSection = () => {
   //Navbar Nav menu onscroll active functionality

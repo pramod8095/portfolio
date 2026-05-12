@@ -237,7 +237,7 @@ const ResumeSection = () => {
               <div className="send-btn-main" data-aos="fade-up">
                 <button className="send-btn1">
                   <a href={process.env.PUBLIC_URL + "/Resume.pdf"}
-    download="Resume.pdf">DOWNLOAD RESUME</a>
+    download="Resume.pdf">DOWNLOAD CV</a>
 
                   <span className="send-span"></span>
                 </button>

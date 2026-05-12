@@ -1,13 +1,12 @@
 import React, { useRef } from "react";
 import BlackYellowSvg from "../../assets/img/resumeimg/black-yellow-circle.jpg";
-import Pramod4 from "../../assets/img/pramod4.png"
+import Pramod4 from "../../assets/img/pramod4.png";
 import YellowFrameSvg from "../../assets/img/svg/traingle-yellow-frame.svg";
 import BlackFrameSvg from "../../assets/img/svg/traingle-black-frame.svg";
 import HalfCircleBlack from "../../assets/img/svg/black-half-circal.svg";
 import HalfCircleYellow from "../../assets/img/svg/yellow-half-circle.svg";
 import ProgressScroll from "./ProgressScroll";
 import RevealOnScroll from "./RevealOnScroll";
-
 
 const ResumeSection = () => {
   const progressBarRefs = useRef([]);
@@ -229,24 +228,17 @@ const ResumeSection = () => {
             <div className="col-xl-4 col-lg-12 p-0">
               <div className="left-side-space" data-aos="fade-up">
                 <div className="resume-img-main">
-                  <img
-                    className="resume-img"
-                    src={Pramod4}
-                    alt="resume-img"
-                  />
+                  <img className="resume-img" src={Pramod4} alt="resume-img" />
                 </div>
                 <div className="s-frame-main"></div>
               </div>
               <br />
               <br />
               <div className="send-btn-main" data-aos="fade-up">
-                <button
-                  className="send-btn1"
-                  onClick={() => {
-    window.location.href = "#send";
-  }}
-                >
-                  SEND ME MESSAGE
+                <button className="send-btn1">
+                  <a href={process.env.PUBLIC_URL + "/Resume.pdf"}
+    download="Resume.pdf">DOWNLOAD RESUME</a>
+
                   <span className="send-span"></span>
                 </button>
               </div>
